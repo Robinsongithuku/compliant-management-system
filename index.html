@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Complaint Management System</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar" role="navigation">
+        <div class="container">
+                 <a class="navbar-brand" href="#">Iso standard Complaint Management System</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav-navbar-nav">
+                  <li>
+                    <a href="./iso org/index.php">Iso User login</a>
+                  </li>
+                    <li>
+                        <a href="users/index.php">User Login</a>
+                    </li>
+                    <li>
+                        <a href="users/registration.php">User Registration</a>
+                    </li>
+                    <li>
+                        <a href="admin/index.php">admin</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img class="images" src="img/kebs_new_logo.png" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img class="images" src="img/c2.png" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img class="images" src="img/c1.jpg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)"></a>
+    <a class="next" onclick="plusSlides(1)"></a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div> 
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    
+    </script>
+    <H1 class="heading">MARKS OF QUALITY</H1>
+    <div class="main">
+        <div class="one">
+     <img class="logo" src="img/KEBS_brochure.jpg" alt="">
+        </div>
+     <div class="one"><img class="logo" src="img/Fortification-mark-png.png" alt="">
+    </div>
+     <div class="one"><img class="logo" src="img/d_mark.jpg" alt=""></div>
+     <div class="one"><img class="logo" src="img/ism.jpg" alt=""></div>
+    </div>
+    <div class="tags">
+        <div class="two"><h3>Standardization Mark</h3> <p>This is a mandatory product certification scheme for locally manufactured products provided for under section 10 of the Standards Act Cap 496, Laws of Kenya</p></div>
+        <div class="two"><h3>Fortification Logo</h3><p>Food fortification is the addition of one or more vitamin and/or mineral to a food (usually referred to as food vehicle) to correct or prevent a demonstrated micronutrient deficiency.</p></div> 
+        <div class="two"><h3>Diamond Mark</h3><p>The Diamond Mark of Quality (also referred to as D-Mark) is a voluntary product certification scheme operated by Kenya Bureau of Standards (KEBS). It is mark of excellence awarded</p></div>
+       <div class="two"><h3>Import Standardization Mark</h3><p>KEBS developed and implemented secure Quality Marks / stickers complete with Track and Trace software</p></div> 
+    </div>
+    <div class="vision">
+        <h3>Vision & Mission</h3>
+        <img src="img/misvis.jpg" alt="">
+</div>
+
+
+        <hr>
+
+        <!-- Footer -->
+
+                <div class="footer">
+                    <p class="end">Copyright &copy; <a href="http://www.kebs.org/">KENYA BUREAU OF STANDARDS</a> | ISO Standard Complaint Management System 2021</p>
+                </div> 
+                <div class="social"> 
+                 <!-- Add font awesome icons -->
+                 <label>Fabebook</label>
+                 <a href="https://www.facebook.com/kebs.org/" class="fa fa-facebook"></a>
+                 <a href="https://twitter.com/KEBS_ke?ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Ftechmate.co.ke%2Fkebs%2Findex.php" class="fa fa-twitter"></a>
+                 <label>Twitter</label>
+                </div>
+            <!-- /.row -->
+    
+
+    
+
+   
+
+</body>
+</html>

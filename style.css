@@ -1,0 +1,171 @@
+body  {  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+color: #333;
+}
+.div2{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+    text-align: center;
+    background-color: #333;
+    color:cornsilk;
+    font-size: 30px;
+}
+.div1{
+    height: 40px;
+    width: 100%;
+    background-color: #333;
+    border-color: #080808;
+}
+.div3{
+    color: white;
+}
+.div3:hover{
+    color: hotpink;
+}
+.div4{
+    margin-left: 960px;
+}
+.one{
+    display: inline;
+    width: 50px;
+    height: 50px;
+}
+.one:hover{
+    width: 70px;
+    height: 70px;
+}
+.tags{
+    background-color:#EBEBEB;;
+    display: inline-block;
+    margin-bottom:50px;
+    width: 100%;
+}
+.two{
+    display: inline;
+    width: 180px;
+    height: 150px;
+    margin-top: 0px;
+}
+.two h3,p{
+    text-align: center;
+}
+.main{
+    background-color:#EBEBEB;;
+    display: inline-block;
+    margin-bottom:50px;
+    width: 100%;
+}
+.vision{
+    text-align:center;
+    width: 100%;
+    
+}
+.vision h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.logo{
+    padding: 20px;
+    margin-left: 60px;
+}
+.heading{
+    margin-left: 470px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    float: right;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+/* Slideshow container */
+
+.images{
+    width: 100%;
+}
+
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+.footer{
+    background-color: honeydew;
+    height: 100px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    border-top: black;
+    
+}
+.footer p{
+    padding-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 120px;
+}
+.social{
+    background-color: honeydew;
+}
+.social .fa{
+    font-size: 30px;
+    width: 30px;
+    text-decoration: none;
+    border-radius: 50%;
+   
+  }
+  /* Add a hover effect*/
+.fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
